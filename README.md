@@ -20,9 +20,9 @@ The code was written in accordance with instructions for the course project. Rea
 
 The R Code merges the training and the test sets to create the complete set. The rbind command combines both training and test sets respectively.
 
-Extracts only the measurements on the mean and standard deviation for each measurement. The grep command is used to get column indexes for variable name contains "mean()" or "std()"
+Extracts only the measurements on the mean and standard deviation for each measurement. The grep command is used to get column indexes for variable names containing Mean or Std
 
-Uses descriptive activity names to name the activities in the data set Convert activity labels to characters and add a new column as factor
+Uses descriptive activity names to name the activities in the data set. Convert activity labels to characters and add a new column as factor.
 
 Appropriately labels the data set with descriptive variable names. Give the selected descriptive names to variable columns
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Use pipeline command to create a new tidy dataset with command group_by and summarize_each in dplyr package
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Create a new tidy dataset with the functions group_by and summarize_all from the dplyr package.
