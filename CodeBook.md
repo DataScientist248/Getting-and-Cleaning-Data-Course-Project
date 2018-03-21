@@ -1,5 +1,5 @@
 
-This code book summarizes the data fields in tidy.txt.
+This code book summarizes the data fields in tidydata.txt.
 
 IDENTIFIERS
 
